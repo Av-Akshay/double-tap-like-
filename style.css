@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 40rem ;
+    height: 60rem;
+    border-radius: 1rem;
+    position: relative;
+}
+.fa-heart{
+    position: absolute;
+    font-size: 5rem;
+    color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.clickCount{
+    color: #ee5253;
+}
